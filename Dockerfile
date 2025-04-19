@@ -2,6 +2,8 @@ FROM php:7.3-fpm-alpine3.11
 ADD repositories /etc/apk/repositories
 ADD default.conf /
 ADD index.php /
+ADD api.php /
+ADD url.txt /
 ADD run.sh /
 ADD php.ini /usr/local/etc/php/
 RUN apk update && apk add nginx && \
