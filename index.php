@@ -9,7 +9,7 @@ header('Content-Type: text/html; charset=utf-8');
 date_default_timezone_set('Asia/Shanghai');
 session_start();
 error_reporting(1);
-$sitetitle = 'gbtv';
+$sitetitle = 'filebox';
 $user = 'admin';
 $pass = '123123';
 $safe_num = 0;//设置多少次后禁止登陆，为0则不限制，建议为3-5
