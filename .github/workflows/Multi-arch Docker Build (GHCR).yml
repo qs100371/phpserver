@@ -23,6 +23,7 @@ jobs:
       - name: Set up Docker Buildx (启用多平台构建)
         uses: docker/setup-buildx-action@v2
         with:
+          driver: docker
           driver-opts: |
             network=host  # 提升构建速度
 
